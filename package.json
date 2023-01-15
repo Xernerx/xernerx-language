@@ -1,6 +1,6 @@
 {
 	"name": "xernerx-language",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"type": "module",
 	"description": "An extension for the xernerx framework to have easy access to multi-lingual commands.",
 	"main": "dist/main.js",
