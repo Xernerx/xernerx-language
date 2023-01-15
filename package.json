@@ -1,0 +1,33 @@
+{
+	"name": "xernerx-language",
+	"version": "0.0.1",
+	"type": "module",
+	"description": "An extension for the xernerx framework to have easy access to multi-lingual commands.",
+	"main": "dist/main.js",
+	"keywords": [
+		"xernerx"
+	],
+	"author": "Dummi",
+	"license": "MIT",
+	"homepage": "https://thedummi.github.io/xernerx/home.html",
+	"packageManager": "npm@8.5.5",
+	"scripts": {
+		"checks": "npm i && npm fund && npm audit fix --force && tsc -w",
+		"patch": "git add . && git commit -m \"Version Patch\" && npm version patch && npm publish",
+		"minor": "git add . && git commit -m \"Version Upgrade\" && npm version minor && npm publish",
+		"major": "git add . && git commit -m \"Version Rewrite\" && npm version major && npm publish"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/TheDummi/xernerx-language.git"
+	},
+	"bugs": {
+		"url": "https://github.com/TheDummi/xernerx-language/issues"
+	},
+	"dependencies": {
+		"i18next": "^22.4.9"
+	},
+	"devDependencies": {
+		"typescript": "^4.9.4"
+	}
+}
